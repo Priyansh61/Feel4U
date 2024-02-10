@@ -38,6 +38,7 @@
 import bannerAnimation from '~/static/animations/landing-banner.json'
 
 export default {
+  middleware: 'auth',
   data() {
     return {
       defaultOptions: { animationData: bannerAnimation },
