@@ -12,8 +12,7 @@
             class="inline-flex items-center px-4 py-2 transition duration-150 ease-in-out rounded-lg focus:outline-none"
             exact
           >
-            <Logo class="w-6 h-6" />
-            <span v-if="!signedIn" class="ml-4 font-bold"> ebb </span>
+            <span v-if="!signedIn" class="ml-4 font-bold"> emotion </span>
           </nuxt-link>
         </div>
         <div class="inline-flex">

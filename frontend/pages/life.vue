@@ -17,7 +17,7 @@
   
   <script>
   export default {
-    middleware: 'auth-redirect-signin',
+    middleware: 'auth',
   }
   </script>
   
