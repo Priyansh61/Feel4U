@@ -55,9 +55,9 @@ export default {
   async asyncData({ $axios }) {
     let events = [];
     try {
-      const response = await $axios.get('https://ap-south-1.aws.neurelo.com/rest/taskModel', {
+      const response = await $axios.get(process.env.COMMUNITY , {
         headers: {
-          'X-Api-Key':'neurelo_9wKFBp874Z5xFw6ZCfvhXerAEguhOlizx4LDByOE/i3uOfyfvw3NdXgx5iBxCGAcv3lL6MNYY13SNX0JSJmKZdVOZv2lN1xfc2xrDdhgYFJh6z1mJWEzGeXlEySSl8qfBIBnM+C3iHu5/r1QOhC4BDWW0ZQes7nx71c5M5mUUdyB9XorzidcyC+uCNB+CSq3_q+Qnnw7ILceZMAbN5xiuc/gyuToSZe2Nt+nPxoGd7Mw='
+          'X-Api-Key': process.env.NEURELO,
         }
       });
       console.log(response.data);
