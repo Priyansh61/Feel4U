@@ -1,12 +1,12 @@
 <template>
   <div class="max-w-lg px-8 py-4">
-    <h1 class="text-2xl font-bold">ebb</h1>
+    <h1 class="text-2xl font-bold">feel4u</h1>
     <p class="mt-4 font-mono text-sm font-bold">
       <i>noun</i>
       <br />
       the movement of the tide out to sea.
       <br />
-      "the tide was on the ebb"
+      "the tide was on the feel4u"
     </p>
     <hr class="my-4" />
     <iframe
@@ -20,7 +20,7 @@
     ></iframe>
     <hr class="my-4" />
     <p class="mt-4">
-      ebb is an interactive guided journey to reduce anxiety, manage stress and
+      feel4u is an interactive guided journey to reduce anxiety, manage stress and
       improve your health & happiness.
     </p>
     <p class="mt-4">
