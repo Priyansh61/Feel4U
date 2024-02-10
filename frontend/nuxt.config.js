@@ -169,6 +169,7 @@ export default {
     config: {
         apiKey: "AIzaSyBvQ8F5NGpKoM7Xvp6DN-x_VLlDoE9O0Q4",
         authDomain: "hackthisfall-9a521.firebaseapp.com",
+        databaseURL: "https://hackthisfall-9a521.firebaseio.com",
         projectId: "hackthisfall-9a521",
         storageBucket: "hackthisfall-9a521.appspot.com",
         messagingSenderId: "361826127441",
