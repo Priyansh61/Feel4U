@@ -1,128 +1,63 @@
 <template>
-    <div class="card">
+  <div class="flex items-center ">
+    <div class="container mx-auto p-5 bg-white max-w-sm rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300">
       <div v-if="imageURL" class="card-image">
-        <img :src="imageURL" :alt="title" onerror="this.src='defaultFallbackImageUrlHere.jpg'">
+        <img :src="imageURL" :alt="title" @error="handleImageError">
       </div>
-      <div class="card-body">
-        <h3 class="card-title">{{ title }}</h3>
-        <p class="card-description">{{ description }}</p>
-        <div class="card-attributes">
-          <div class="attribute"><span class="label">Coins Required:</span> {{ coinsReq }}</div>
-          <div class="attribute"><span class="label">Reward Points:</span> {{ rewardPoints }}</div>
+      <div v-else class="card-image">
+        <img src="../../static/community.webp" class="w-full mb-5" />
+      </div>
+      <div class="font-bold">{{ title }}</div>
+      <div>{{ truncatedDescription }}</div> <!-- Use truncatedDescription instead of description -->
+      <div class="flex justify-between items-center">
+        <div>
+          <div class="flex mt-5">Coins Required: <h1 class="w-5 ml-2">{{ coinsReq }}</h1><img src="../../static/coin.png" class="w-5 h-5" /></div>
+          <div class="flex mt-1">Reward: <h1 class="w-5 ml-2">{{ rewardPoints }}</h1><img src="../../static/reward.png" class="w-5 h-5 " /></div>
+        </div>
+        <div>
+          <button class="text-white text-md font-semibold bg-green-400 py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110">Interested</button>
         </div>
       </div>
-      <div class="card-footer">
-        <button @click="expressInterest">Interested</button>
-        <span class="id">ID: {{ id }}</span>
-      </div>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    props: {
-      coinsReq: Number,
-      imageURL: String,
-      title: String,
-      createdAt: String,
-      rewardPoints: Number,
-      status: String,
-      estimatedCompletionTime: Number,
-      description: String,
-      id: String,
-    },
-    async mounted() {
-        console.log('EventCard mounted');
-        console.log(this.coinsReq);
-        console.log(this.imageURL);
-        console.log(this.title);
-        console.log(this.createdAt);
-        console.log(this.rewardPoints);
-        console.log(this.status);
-        console.log(this.estimatedCompletionTime);
+  </div>
+</template>
 
+<script>
+export default {
+  props: {
+    coinsReq: Number,
+    imageURL: String,
+    title: String,
+    createdAt: String,
+    rewardPoints: Number,
+    status: String,
+    estimatedCompletionTime: Number,
+    description: String,
+    id: String,
+  },
+  computed: {
+    truncatedDescription() {
+      const maxLength = 100; // Set the maximum length for description
+      return this.description.length > maxLength ? `${this.description.slice(0, maxLength)}...` : this.description;
+    }
+  },
+  methods: {
+    handleImageError(event) {
+      event.target.src = 'defaultFallbackImageUrlHere.jpg';
     },
-    methods: {
+    formatDate(dateString) {
+      const options = { year: 'numeric', month: 'short', day: 'numeric' };
+      return new Date(dateString).toLocaleDateString(undefined, options);
+    },
+    expressInterest() {
+      alert(`Expressing interest in ${this.title}`);
+      // Implement your logic to mark interest here
+    },
+  },
+};
+</script>
 
-      formatDate(dateString) {
-        const options = { year: 'numeric', month: 'short', day: 'numeric' };
-        return new Date(dateString).toLocaleDateString(undefined, options);
-      },
-      expressInterest() {
-        alert(`Expressing interest in ${this.title}`);
-        // Implement your logic to mark interest here
-      },
-    },
-  }
-  </script>
-  
-  <style scoped>
-  .card {
-    max-width: 320px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 16px;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-  }
-  
-  .card-image img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-  }
-  
-  .card-body {
-    padding: 16px;
-  }
-  
-  .card-title {
-    font-size: 18px;
-    margin-bottom: 8px;
-  }
-  
-  .card-description {
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 16px;
-  }
-  
-  .card-attributes .attribute {
-    margin-bottom: 10px;
-    font-size: 14px;
-  }
-  
-  .card-attributes .label {
-    font-weight: bold;
-  }
-  
-  .card-footer {
-    padding: 10px 16px;
-    background-color: #f8f8f8;
-    border-top: 1px solid #e0e0e0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .card-footer button {
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .card-footer button:hover {
-    background-color: #0056b3;
-  }
-  
-  .id {
-    font-size: 12px;
-    color: #666;
-  }
-  </style>
-  
+<style scoped>
+/* Add your scoped styles here */
+</style>
+
