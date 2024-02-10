@@ -12,12 +12,15 @@ const chatRoutes = require("./routes/chatRoutes");
 const messageRoutes = require("./routes/messageRoutes");
 const { notFound, errorHandler } = require("./middleware/errorMiddleware");
 const path = require("path");
+const cors = require("cors");
 
 dotenv.config();
 connectDB();
 const app = express();
 
 app.use(express.json()); // to accept json data
+app.use(cors());
+app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/user", userRoutes);
 app.use("/api/chat", chatRoutes);
@@ -51,6 +54,9 @@ const server = app.listen(
   PORT,
   console.log(`Server running on PORT ${PORT}...`.yellow.bold)
 );
+// use cors to allow pre flight check
+
+
 
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
