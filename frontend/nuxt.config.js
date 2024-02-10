@@ -2,11 +2,11 @@ import webpack from 'webpack'
 
 // Common options
 export const options = {
-  name: 'ebb',
+  name: 'feel4u',
   shortDescription: 'Feel life again from a new perspective.',
   description:
-    'ebb is an immersive task-based journey that inspires people towards self-discovery and emotional maturity — gain the ability to be fully present in the moment.',
-  keywords: 'ebb, stress, relief',
+    'feel4u is an immersive task-based journey that inspires people towards self-discovery and emotional maturity — gain the ability to be fully present in the moment.',
+  keywords: 'feel4u, stress, relief',
   loading: {
     color: 'var(--color-accent)',
     background: 'var(--color-primary)',
@@ -113,6 +113,7 @@ export default {
     '@nuxtjs/toast',
     // Doc: https://i18n.nuxtjs.org
     'nuxt-i18n',
+
   ],
 
   // PWA module configuration (https://pwa.nuxtjs.org/setup)
@@ -166,14 +167,13 @@ export default {
   // Firebase module configuration (https://github.com/nuxt-community/firebase-module)
   firebase: {
     config: {
-      apiKey: process.env.API_KEY,
-      authDomain: process.env.AUTH_DOMAIN,
-      databaseURL: process.env.DATABASE_URL,
-      projectId: process.env.PROJECT_ID,
-      storageBucket: process.env.STORAGE_BUCKET,
-      messagingSenderId: process.env.MESSAGING_SENDER_ID,
-      appId: process.env.APP_ID,
-      measurementId: process.env.MEASUREMENT_ID,
+        apiKey: "AIzaSyBvQ8F5NGpKoM7Xvp6DN-x_VLlDoE9O0Q4",
+        authDomain: "hackthisfall-9a521.firebaseapp.com",
+        projectId: "hackthisfall-9a521",
+        storageBucket: "hackthisfall-9a521.appspot.com",
+        messagingSenderId: "361826127441",
+        appId: "1:361826127441:web:d955deef042963fb113270",
+        measurementId: "G-P5R753XBL7"
     },
     services: {
       auth: {
@@ -202,7 +202,7 @@ export default {
         name: 'Español',
         iso: 'es-ES',
         file: 'es-ES.json',
-      },
+      },process.env
     ],
     defaultLocale: 'en',
     vueI18n: {
