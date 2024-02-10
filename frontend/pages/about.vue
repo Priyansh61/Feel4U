@@ -9,15 +9,12 @@
       "the tide was on the feel4u"
     </p>
     <hr class="my-4" />
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/watch?v=Iqr3XIhSnUQ"
-      frameborder="0"
-      allow="autoplay; encrypted-media"
-      allowfullscreen
-      class="w-full h-64 rounded-lg"
-    ></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Iqr3XIhSnUQ?si=v70Aqkk_8KGaDFkn"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+
     <hr class="my-4" />
     <p class="mt-4">
       feel4u is an interactive guided journey to reduce anxiety, manage stress and
