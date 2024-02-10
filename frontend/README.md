@@ -1,69 +1,183 @@
-# frontend
+<p align="center">
+  <img src="https://image.flaticon.com/icons/svg/947/947089.svg" width="128">
+  <br />
+  <h1 align="center">ebb</h1>
+  <h3 align="center">
 
-## Build Setup
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-34cdfa)](CODE_OF_CONDUCT.md)
 
-```bash
-# install dependencies
-$ yarn install
+  </h3>
+</p>
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+<p align="center">
+  <i>Feel life again from a new perspective.</i>
+</p>
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+## **Manifesto**
 
-# generate static project
-$ yarn generate
-```
+"Nothing can bring you peace but yourself."
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+_— Ralph Waldo Emerson_
 
-## Special Directories
+## **What is ebb?**
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+ebb is a web app that gamifies stress/anxiety/depression management in an actionable manner to provide relief. We developed ebb to address the problem statement of using technology to aid issues centered around stress/anxiety/depression.
 
-### `assets`
+We want to help people with stress/anxiety/depression realise their ability to take control of their condition and take actionable steps to obtain a positive impact on their mental health.
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+An immersive task-based journey that inspires people towards self-discovery and emotional maturity to gain the ability to be fully present in the moment.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+---
 
-### `components`
+[![Screenshots](https://i.imgur.com/8jlHJsl.png)](http://ebb.vercel.app)
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+---
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+## **Inspiration**
 
-### `layouts`
+Project ebb is inspired by Carl Pullein's blog post "[Productivity is not about doing more work.](https://medium.com/carl-pullein/productivity-is-not-about-doing-more-work-25a0bb1fdf22)".
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+### Productivity is not about doing more work.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+_— Carl Pullein_
 
+> There’s a perception that to become more productive means doing more work. Yet that is not the purpose of becoming more productive at all. Becoming more productive is about becoming more effective at getting your work done so you can spend more time doing the things you want to do with the people you love being with.
 
-### `pages`
+## **How?**
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+1. ebb quantifies the user's stress/anxiety/depression level to be spent on a prescribed set of activities before the day ends. By doing so, users inadvertently take actionable steps to deal with their condition.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+2. Users then decide on the activities to spend their days on, the reward they get for completing them (to positively reinforce the habit of taking actionable steps to deal with their condition).
 
-### `plugins`
+3. When users check back in, ebb prompts them to reward themselves, then proceeds to re-evaluate their stress/anxiety/depression levels.
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+4. If their stress/anxiety/depression levels are not up to mark, users get to re-attempt the challenge with their re-evaluated levels, restarting the whole process.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+Productivity tools and mental health apps usually take the form of mood trackers, which are useful, but offers very little that's actionable beyond telling the user what they should do.
 
-### `static`
+ebb focuses on getting users to take action by helping them to visualize their tasks that needs to be completed before the day ends. Spending time on such task is equivalent to doing activities that could lower your negative emotion levels, and we are not aware of any other apps that does something similar in terms of gamification.
 
-This directory contains your static files. Each file inside this directory is mapped to `/`.
+ebb helps to solidify the habit of taking actionable steps to deal with one's condition by getting users to pick a reward prior, then administering it after they’ve completed their tasks. The premise for this idea is positive reinforcement, in which learning accompanied by positive feelings are more likely to be remembered. Thus, the associating of rewards with the successful spending of credits is effective in encouraging users to deal with their condition in an actionable manner in the long run.
 
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
+**Table of Contents**
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
+- [Features](#Features)
 
-### `store`
+- [Demo](#Demo)
 
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
+- [Usage](#Usage)
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+- [Built with](#built-with)
+
+- [Installation](#Installation)
+
+- [Authors](#Authors)
+
+- [Support](#Support)
+
+- [Contributing](#Contributing)
+
+- [License](#License)
+
+## **Features**
+
+#### **Emotion tracking**
+
+Learn about your mood patterns and visually see yourself improve.
+
+#### **Tasks**
+
+Level up your emotional states as you learn, challenge yourself with daily tasks.
+
+#### **Rewards**
+
+Take actionable steps to earn rewards - learning accompanied by positive feelings are more likely to be remembered.
+
+#### **Streaks**
+
+Count how many consecutive days you're able to complete tasks.
+
+#### **Synced**
+
+All your information in any device, anywhere, everytime.
+
+## **Demo**
+
+- [Web app](http://ebb.vercel.app)
+
+- [Video demo](https://www.youtube.com/watch?v=VrhNVepG1lI)
+
+## **Usage**
+
+1. Add current emotion
+
+2. Choose a fun task
+
+3. Choose a reward
+
+4. Finish the task before day ends to gain reward
+
+## **Built with**
+
+- HTML
+
+- SCSS
+
+- JavaScript
+
+- [Vue](https://vuejs.org)
+
+- [Nuxt](https://nuxtjs.org)
+
+- [TailwindCSS](https://tailwindcss.com)
+
+- [Vercel](https://vercel.com)
+
+## **Installation**
+
+0. Update [`.env.example`](https://github.com/liyasthomas/ebb/blob/master/.env.example) file found in repository's root directory with your own keys and rename it to `.env`.
+
+_Sample keys only works with the [production build](https://ebb.vercel.app)._
+
+#### Browser based development environment
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/liyasthomas/ebb)
+
+#### Local development environment
+
+1. [Clone the repository](https://help.github.com/en/articles/cloning-a-repository) with git.
+
+2. Install dependencies by running `npm install` within the directory that you cloned (probably `ebb`).
+
+3. Start the development server with `npm run dev`.
+
+4. Open development site by going to [`http://localhost:3000`](http://localhost:3000) in your browser.
+
+## **Authors**
+
+- [Liyas Thomas](https://github.com/liyasthomas)
+
+- [Andrew Bastin](https://github.com/andrewbastin)
+
+## **Support**
+
+Please [open an issue](https://github.com/liyasthomas/ebb/issues/new) for support.
+
+## **Contributing**
+
+Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/liyasthomas/ebb/compare).
+
+Please read [`CONTRIBUTING`](https://github.com/liyasthomas/ebb/blob/master/CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](https://github.com/liyasthomas/ebb/blob/master/CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
+
+## **License**
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [`LICENSE`](https://github.com/liyasthomas/ebb/blob/master/LICENSE) file for details.
+
+<p align="center">
+  <br>
+  <img src="https://i.giphy.com/media/cJfV9CjH393seMpIan/giphy.gif" width="300">
+</p>
+
+<p align="center">
+  <b>Feel life again from a new perspective.<br>Because we believe <ins>software do save lives.</ins></b>
+</p>
