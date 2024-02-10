@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://image.flaticon.com/icons/svg/947/947089.svg" width="128">
   <br />
-  <h1 align="center">ebb</h1>
+  <h1 align="center">feel4u</h1>
   <h3 align="center">
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-34cdfa)](CODE_OF_CONDUCT.md)
@@ -19,9 +19,9 @@
 
 _— Ralph Waldo Emerson_
 
-## **What is ebb?**
+## **What is feel4u?**
 
-ebb is a web app that gamifies stress/anxiety/depression management in an actionable manner to provide relief. We developed ebb to address the problem statement of using technology to aid issues centered around stress/anxiety/depression.
+feel4u is a web app that gamifies stress/anxiety/depression management in an actionable manner to provide relief. We developed feel4u to address the problem statement of using technology to aid issues centered around stress/anxiety/depression.
 
 We want to help people with stress/anxiety/depression realise their ability to take control of their condition and take actionable steps to obtain a positive impact on their mental health.
 
@@ -29,13 +29,13 @@ An immersive task-based journey that inspires people towards self-discovery and 
 
 ---
 
-[![Screenshots](https://i.imgur.com/8jlHJsl.png)](http://ebb.vercel.app)
+[![Screenshots](https://i.imgur.com/8jlHJsl.png)](http://feel4u.vercel.app)
 
 ---
 
 ## **Inspiration**
 
-Project ebb is inspired by Carl Pullein's blog post "[Productivity is not about doing more work.](https://medium.com/carl-pullein/productivity-is-not-about-doing-more-work-25a0bb1fdf22)".
+Project feel4u is inspired by Carl Pullein's blog post "[Productivity is not about doing more work.](https://medium.com/carl-pullein/productivity-is-not-about-doing-more-work-25a0bb1fdf22)".
 
 ### Productivity is not about doing more work.
 
@@ -45,19 +45,19 @@ _— Carl Pullein_
 
 ## **How?**
 
-1. ebb quantifies the user's stress/anxiety/depression level to be spent on a prescribed set of activities before the day ends. By doing so, users inadvertently take actionable steps to deal with their condition.
+1. feel4u quantifies the user's stress/anxiety/depression level to be spent on a prescribed set of activities before the day ends. By doing so, users inadvertently take actionable steps to deal with their condition.
 
 2. Users then decide on the activities to spend their days on, the reward they get for completing them (to positively reinforce the habit of taking actionable steps to deal with their condition).
 
-3. When users check back in, ebb prompts them to reward themselves, then proceeds to re-evaluate their stress/anxiety/depression levels.
+3. When users check back in, feel4u prompts them to reward themselves, then proceeds to re-evaluate their stress/anxiety/depression levels.
 
 4. If their stress/anxiety/depression levels are not up to mark, users get to re-attempt the challenge with their re-evaluated levels, restarting the whole process.
 
 Productivity tools and mental health apps usually take the form of mood trackers, which are useful, but offers very little that's actionable beyond telling the user what they should do.
 
-ebb focuses on getting users to take action by helping them to visualize their tasks that needs to be completed before the day ends. Spending time on such task is equivalent to doing activities that could lower your negative emotion levels, and we are not aware of any other apps that does something similar in terms of gamification.
+feel4u focuses on getting users to take action by helping them to visualize their tasks that needs to be completed before the day ends. Spending time on such task is equivalent to doing activities that could lower your negative emotion levels, and we are not aware of any other apps that does something similar in terms of gamification.
 
-ebb helps to solidify the habit of taking actionable steps to deal with one's condition by getting users to pick a reward prior, then administering it after they’ve completed their tasks. The premise for this idea is positive reinforcement, in which learning accompanied by positive feelings are more likely to be remembered. Thus, the associating of rewards with the successful spending of credits is effective in encouraging users to deal with their condition in an actionable manner in the long run.
+feel4u helps to solidify the habit of taking actionable steps to deal with one's condition by getting users to pick a reward prior, then administering it after they’ve completed their tasks. The premise for this idea is positive reinforcement, in which learning accompanied by positive feelings are more likely to be remembered. Thus, the associating of rewards with the successful spending of credits is effective in encouraging users to deal with their condition in an actionable manner in the long run.
 
 **Table of Contents**
 
@@ -103,7 +103,7 @@ All your information in any device, anywhere, everytime.
 
 ## **Demo**
 
-- [Web app](http://ebb.vercel.app)
+- [Web app](http://feel4u.vercel.app)
 
 - [Video demo](https://www.youtube.com/watch?v=VrhNVepG1lI)
 
@@ -135,19 +135,19 @@ All your information in any device, anywhere, everytime.
 
 ## **Installation**
 
-0. Update [`.env.example`](https://github.com/liyasthomas/ebb/blob/master/.env.example) file found in repository's root directory with your own keys and rename it to `.env`.
+0. Update [`.env.example`](https://github.com/liyasthomas/feel4u/blob/master/.env.example) file found in repository's root directory with your own keys and rename it to `.env`.
 
-_Sample keys only works with the [production build](https://ebb.vercel.app)._
+_Sample keys only works with the [production build](https://feel4u.vercel.app)._
 
 #### Browser based development environment
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/liyasthomas/ebb)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/liyasthomas/feel4u)
 
 #### Local development environment
 
 1. [Clone the repository](https://help.github.com/en/articles/cloning-a-repository) with git.
 
-2. Install dependencies by running `npm install` within the directory that you cloned (probably `ebb`).
+2. Install dependencies by running `npm install` within the directory that you cloned (probably `feel4u`).
 
 3. Start the development server with `npm run dev`.
 
@@ -161,17 +161,17 @@ _Sample keys only works with the [production build](https://ebb.vercel.app)._
 
 ## **Support**
 
-Please [open an issue](https://github.com/liyasthomas/ebb/issues/new) for support.
+Please [open an issue](https://github.com/liyasthomas/feel4u/issues/new) for support.
 
 ## **Contributing**
 
-Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/liyasthomas/ebb/compare).
+Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/liyasthomas/feel4u/compare).
 
-Please read [`CONTRIBUTING`](https://github.com/liyasthomas/ebb/blob/master/CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](https://github.com/liyasthomas/ebb/blob/master/CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
+Please read [`CONTRIBUTING`](https://github.com/liyasthomas/feel4u/blob/master/CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](https://github.com/liyasthomas/feel4u/blob/master/CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
 ## **License**
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [`LICENSE`](https://github.com/liyasthomas/ebb/blob/master/LICENSE) file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [`LICENSE`](https://github.com/liyasthomas/feel4u/blob/master/LICENSE) file for details.
 
 <p align="center">
   <br>
