@@ -18,6 +18,10 @@
         </div>
         <div class="inline-flex">
           <nuxt-link
+            :to="localePath('/community')"
+            class="inline-flex items-center px-4 py-2 transition duration-150 ease-in-out rounded-lg focus:outline-none"
+          > community </nuxt-link>
+          <nuxt-link
             v-if="signedIn"
             v-tooltip="'Profile'"
             :to="localePath('/profile')"

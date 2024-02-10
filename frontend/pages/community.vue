@@ -55,10 +55,10 @@ export default {
   async asyncData({ $axios }) {
     let events = [];
     try {
-      const response = await $axios.get(process.env.COMMUNITY , {
-        headers: {
-          'X-Api-Key': process.env.NEURELO,
-        }
+      const response = await $axios.get(process.env.NUXT_ENV_COMMUNITY, {
+          headers: {
+            'X-Api-Key': process.env.NUXT_ENV_NEURELO,
+          }
       });
       console.log(response.data);
       events = response.data;
