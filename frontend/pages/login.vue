@@ -20,11 +20,7 @@
       },
     },
     methods: {
-      signOut() {
-        console.log("Signed Out");
-        this.$fire.auth.signOut();
-        window.location = "/login";
-      },
+      
     },
     components: { SignIn },
   };
