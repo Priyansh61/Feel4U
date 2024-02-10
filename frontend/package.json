@@ -35,7 +35,10 @@
     "swiper": "^6.4.10",
     "v-tooltip": "^2.1.2",
     "vue-awesome-swiper": "^4.1.1",
-    "vue-js-modal": "^2.0.0-rc.6"
+    "vue-js-modal": "^2.0.0-rc.6",
+    "vuefire": "^3.1.22",
+    "vuexfire": "^3.2.5",
+    "node-sass": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.13",
