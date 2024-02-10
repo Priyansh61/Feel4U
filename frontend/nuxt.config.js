@@ -2,11 +2,11 @@ import webpack from 'webpack'
 
 // Common options
 export const options = {
-  name: 'feel4u',
-  shortDescription: 'Feel life again from a new perspective.',
+  name: 'Feel4U',
+  shortDescription: 'Connecting lives.',
   description:
-    'feel4u is an immersive task-based journey that inspires people towards self-discovery and emotional maturity — gain the ability to be fully present in the moment.',
-  keywords: 'feel4u, stress, relief',
+    'Feel4U connects people, and inspires community working together',
+  keywords: 'feel4u, anxiety, stress, management ,relief',
   loading: {
     color: 'var(--color-accent)',
     background: 'var(--color-primary)',
@@ -17,7 +17,7 @@ export const options = {
     accent: '#67d9fb',
   },
   social: {
-    twitter: '@liyasthomas',
+    twitter: '@HackbyteTpc',
   },
 }
 
@@ -202,7 +202,20 @@ export default {
         name: 'Español',
         iso: 'es-ES',
         file: 'es-ES.json',
-      },process.env
+      },
+      {
+        code: 'fr',
+        name: 'French',
+        iso: 'fr-FR',
+        file: 'fr-FR.json',
+      },
+      {
+        code: 'lv',
+        name: 'Latvian',
+        iso: 'lv-LV',
+        file: 'lv-LV.json',
+      },
+      process.env
     ],
     defaultLocale: 'en',
     vueI18n: {
