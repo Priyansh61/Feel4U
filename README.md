@@ -16,6 +16,28 @@ Empowering people to realize their ability to take control and take actionable s
 - Frontend - [to_decide]
 - Backend - [to_decide]
 
-## Want to contribute?
+## Functionality
+<ol>
+<li>Internationalization takes care of translating application to various languages.</li>
+<li>Non-spammy advertisement to cover costs of experts.
+</ol>
+
+## Future scope
+<ul>
+<li>Doctor should have access to background of user, to provide an insight into personality and get better consultation.</li>
+</ul>
+
+## Want to contribute? 
 
 Check out [CONTRIBUTING.md](CONTRIBUTING.md).
+
+### The setup 
+Node Version v14.16.0
+Use NodeVersionManager to easily navigate through different node versions.
+
+### Deployement Instructions
+<ol>
+<li>Use cd frontend to navigate through to the frontend folder.</li>
+<li>Use "node install" to install all dependencies.</li>
+<li>npm run dev (refer to 'scripts' section in package.json for more scripts) to see your code running live.</li>
+</ol>

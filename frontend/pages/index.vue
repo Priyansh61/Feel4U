@@ -9,18 +9,17 @@
                 <h2
                   class="text-4xl font-extrabold leading-none text-secondaryDark sm:text-5xl md:text-6xl"
                 >
-                  Feel life again
+                  Enjoy life
                   <p
                     class="relative text-transparent bg-clip-text bg-gradient-to-r from-accent to-accentDark"
                   >
-                    from a new perspective
+                    with a new perspective
                   </p>
                 </h2>
                 <p
                   class="mt-3 font-bold sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
                 >
-                  Take actionable steps to obtain a positive impact on your
-                  mental health.
+                  Take actionable steps to lead a positive and outgoing lifestyle.
                 </p>
                 <div class="flex justify-center mt-5 sm:mt-8 lg:justify-start">
                   <ButtonPrimary
