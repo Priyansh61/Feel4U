@@ -15,7 +15,7 @@
           <div class="flex mt-1">Reward: <h1 class="w-5 ml-2">{{ rewardPoints }}</h1><img src="../../static/reward.png" class="w-5 h-5 " /></div>
         </div>
         <div>
-          <button class="text-white text-md font-semibold bg-green-400 py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110">Interested</button>
+          <button class="text-white text-md font-semibold bg-purple-500 py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110">Interested</button>
         </div>
       </div>
     </div>

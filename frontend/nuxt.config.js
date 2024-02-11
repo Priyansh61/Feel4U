@@ -199,22 +199,10 @@ export default {
         file: 'en-US.json',
       },
       {
-        code: 'es',
-        name: 'Español',
-        iso: 'es-ES',
-        file: 'es-ES.json',
-      },
-      {
-        code: 'fr',
-        name: 'French',
-        iso: 'fr-FR',
-        file: 'fr-FR.json',
-      },
-      {
-        code: 'lv',
-        name: 'Latvian',
-        iso: 'lv-LV',
-        file: 'lv-LV.json',
+        code: 'in-HI',
+        name: 'हिन्दी',
+        iso: 'en-HI',
+        file: 'en-HI.json',
       },
       process.env
     ],

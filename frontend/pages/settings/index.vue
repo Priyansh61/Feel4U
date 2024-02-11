@@ -5,7 +5,7 @@
         <div
           class="flex flex-col lg:p-4 transition duration-150 ease-in-out border rounded-lg border-divider bg-primaryLight"
         >
-          <div
+          <!-- <div
             class="flex items-center justify-between p-4 duration-150 ease-in-out border-b border-dividerLight transition-border"
           >
             <div class="inline-flex flex-col flex-1 mr-4">
@@ -13,7 +13,7 @@
               <div class="text-sm">Choose your language</div>
             </div>
             <ChangeLanguage />
-          </div>
+          </div> -->
           <div class="flex items-center p-4">
             <div class="inline-flex flex-col flex-1 mr-4">
               <div class="font-bold text-secondaryDark">Color mode</div>
