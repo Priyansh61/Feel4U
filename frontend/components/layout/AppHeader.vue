@@ -5,7 +5,7 @@
         class="container flex flex-wrap items-center justify-between px-4 py-2 mx-auto transition duration-150 ease-in-out bg-transparent border-b border-transparent"
         :class="{ 'border-dividerLight': scrolled }"
       >
-        <div class="inline-flex flex-shrink-0">
+        <div class="hidden sm:inline-flex sm:flex-shrink-0 ">
           <nuxt-link
             v-tooltip="{ content: !signedIn ? '' : 'Home' }"
             :to="!signedIn ? localePath('/') : localePath('/life')"
@@ -20,7 +20,11 @@
           <nuxt-link
             :to="localePath('/community')"
             class="inline-flex items-center px-4 py-2 transition duration-150 ease-in-out rounded-lg focus:outline-none"
-          > community </nuxt-link>
+          > Community </nuxt-link>
+          <nuxt-link
+            :to="localePath('/volunteer')"
+            class="inline-flex items-center px-4 py-2 transition duration-150 ease-in-out rounded-lg focus:outline-none"
+          > Volunteer</nuxt-link>
           <nuxt-link
             v-if="signedIn"
             v-tooltip="'Profile'"
