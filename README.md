@@ -1,5 +1,5 @@
 # Feel4U
-Team : The Boys
+<a href="https://youtu.be/WOqJwgWyRCI" target="_blank">Team : The Boys</a>
 We are here to have fun and innovate while having good food.
 
 In India, it is considered to be “weak” to approach a mental counselor. So many people in need of help hesitate to seek help and thereby improve their situation.
@@ -33,9 +33,13 @@ Empowering people to realize their ability to take control and take actionable s
 <li> Connect and schedule meets with professionals, using  https://calendly.com/ </li>
 </ol>
 
+<img src="frontend/static/images/use_case.png" alt="drawing" />
+<p style="text-align: center;">Use Case Diagram</p>
+
 ## Future scope
 <ul>
 <li>Doctor should have access to background of user, to provide an insight into personality and get better consultation.</li>
+<li>To verify if community events were attended</li>
 </ul>
 
 ## Want to contribute? 
